@@ -27,8 +27,8 @@
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
               <li class="{{ about }}"><a class="nav-item nav-link" href="{% url 'about-home' %}">About</a></li>
-              <li class="{{ skits }}"><a class="nav-item nav-link" href="#">Skits</a></li>
-              <li class="{{ presentations }}"><a class="nav-item nav-link" href="#">Presentations</a></li>
+              <li class="{{ skits }}"><a class="nav-item nav-link" href="{% url 'skits' %}">Skits</a></li>
+              <li class="{{ presentations }}"><a class="nav-item nav-link" href="{% url 'presentations' %}">Presentations</a></li>
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">

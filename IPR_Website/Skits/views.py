@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
-# Create your views here.
+def skits(request):
+    context = {
+        "skits": "active",
+    }
+    return render(request, 'Skits/skits.html', context)

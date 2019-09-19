@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
-# Create your views here.
+def presentations(request):
+    context = {
+        "presentations": "active",
+    }
+    return render(request, 'Presentations/presentations.html', context)
