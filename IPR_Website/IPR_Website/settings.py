@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'Skits.apps.SkitsConfig',
     'Presentations.apps.PresentationsConfig',
     'website.apps.WebsiteConfig',
+    'crispy_forms',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
