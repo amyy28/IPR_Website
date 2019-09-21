@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d99577f-4818-4d35-8813-2b02e3359628" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/IPR_Website/IPR_Website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/IPR_Website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/website/templates/website/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/website/templates/website/header.html" afterDir="false" />
-    </list>
+    <list default="true" id="4d99577f-4818-4d35-8813-2b02e3359628" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -100,7 +92,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
