@@ -31,9 +31,18 @@
               <li class="{{ presentations }}"><a class="nav-item nav-link" href="{% url 'presentations' %}">Presentations</a></li>
             </div>
             <!-- Navbar Right Side -->
+            {% if user.is_authenticated %}
             <div class="navbar-nav">
-              <a class="nav-item nav-link" href="#">Logout</a>
-            </div>
+                Hello User,
+                <a class="{{ logout }}" href="{% url 'logout' %}">Logout</a>
+              </div>
+            {% else %}
+            <div class="navbar-nav">
+                <a class="{{ login }}" href="{% url 'login' %}">LogIn</a>
+              </div>
+            {% endif %}
+
+            
           </div>
         </div>
       </nav>
