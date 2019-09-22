@@ -21,7 +21,7 @@ def skits(request):
 
 class SkitsCreateView(CreateView):
     model = Skits
-    fields = ['team_group_numbers', 'topic']
+    fields = ['team_group_numbers', 'topic', 'video_url']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
@@ -33,7 +33,7 @@ class SkitsDetailView(DetailView):
 
 class SkitsUpdateView(UpdateView):
     model = Skits
-    fields = ['team_group_numbers', 'topic']
+    fields = ['team_group_numbers', 'topic', 'video_url']
 
     def form_valid(self, form):
         form.instance.author = self.request.user

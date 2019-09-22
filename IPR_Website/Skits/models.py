@@ -6,6 +6,7 @@ from django.urls import reverse
 class Skits(models.Model):
     team_group_numbers = models.CharField(max_length=100)
     topic = models.CharField(max_length=100)
+    video_url = models.CharField(max_length=100)
 
     def __str__(self):
         return self.topic

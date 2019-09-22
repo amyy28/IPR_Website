@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d99577f-4818-4d35-8813-2b02e3359628" name="Default Changelist" comment="" />
+    <list default="true" id="4d99577f-4818-4d35-8813-2b02e3359628" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +14,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="97" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#object#0;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,15 +44,15 @@
         <option value="$PROJECT_DIR$/IPR_Website/Presentations/urls.py" />
         <option value="$PROJECT_DIR$/IPR_Website/Presentations/views.py" />
         <option value="$PROJECT_DIR$/IPR_Website/IPR_Website/urls.py" />
-        <option value="$PROJECT_DIR$/IPR_Website/Skits/models.py" />
         <option value="$PROJECT_DIR$/IPR_Website/Skits/admin.py" />
-        <option value="$PROJECT_DIR$/IPR_Website/Skits/views.py" />
         <option value="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_confirm_delete.html" />
-        <option value="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_form.html" />
         <option value="$PROJECT_DIR$/IPR_Website/IPR_Website/settings.py" />
         <option value="$PROJECT_DIR$/IPR_Website/Skits/urls.py" />
         <option value="$PROJECT_DIR$/IPR_Website/website/templates/website/header.html" />
         <option value="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits.html" />
+        <option value="$PROJECT_DIR$/IPR_Website/Skits/models.py" />
+        <option value="$PROJECT_DIR$/IPR_Website/Skits/views.py" />
+        <option value="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_form.html" />
         <option value="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_detail.html" />
       </list>
     </option>
@@ -48,7 +68,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -56,10 +75,37 @@
               <item name="IPR_Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="IPR_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPR_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Skits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPR_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Skits" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPR_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Skits" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Skits" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -93,8 +139,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -105,7 +152,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -218,21 +265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_confirm_delete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -244,16 +276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="29" column="91" selection-start-line="29" selection-start-column="91" selection-end-line="29" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -269,22 +291,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_detail.html">
+    <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#object#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="289">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="97" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#object#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
