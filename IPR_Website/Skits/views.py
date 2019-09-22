@@ -2,7 +2,10 @@ from django.shortcuts import render
 from .models import Skits
 from django.views.generic import CreateView, DetailView, UpdateView, DeleteView
 from django.db.models import Q
+from django.contrib.auth.decorators import login_required
 
+
+@login_required
 def skits(request):
     skits = Skits.objects.all()
     search_term = ''

@@ -1,8 +1,8 @@
 {% extends "website/header.html" %}
 {% block content %}
     <h2 class="container">The presentations page!</h2>
-    <div style="padding-left:900px">
-      <a href="#" class="btn btn-secondary btn-sm mt-1 mb-1" style="background-color:green">Add new +</a>
+    <div style="padding-left:1000px">
+      <a href="{% url 'presentations-create' %}" class="btn btn-secondary btn-sm mt-1 mb-1" style="background-color:green">Add new +</a>
       </div>
     <form action="" style="padding-top:20px">
       <input type="text" placeholder="Search.." name="search" id="search" value="{{search_term}}">
@@ -25,4 +25,22 @@ input[type=text]:focus {
   width: 100%;
 }
 </style>
+<table class="table" style="padding-top:100px">
+    <thead>
+      <tr>
+        <th>Team Group Numbers</th>
+        <th>Topic</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for presentation in presentations %}
+      <tr>
+        <td>{{ presentation.team_group_numbers }}</td>
+        <td>{{ presentation.topic }}</td>
+        <td><a class="article-title" href="{% url 'presentations-detail' presentation.id %}">Details</a></td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
 {% endblock content %}
