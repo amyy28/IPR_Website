@@ -15,3 +15,4 @@ urlpatterns = [
     path('new/', SkitsCreateView.as_view(), name='skits-create'),
 
 ]
+
