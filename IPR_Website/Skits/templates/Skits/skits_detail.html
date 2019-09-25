@@ -14,6 +14,8 @@
       <embed src="{{ object.video_url }}"
              type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
 
-    <img src="{{ object.image }}" width="42" height="42">
+    <div>
+      <img src="{{ object.image.url }}" >
+    </div>
   </div>
 {% endblock content %}
