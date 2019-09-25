@@ -1,0 +1,11 @@
+{% extends "website/header.html" %}
+{% block content %}
+  <div class="container">
+  <h3>{{ object.team_group_numbers }}</h3>
+  </div>
+  <div style="padding-left:930px">
+  <a href="{% url 'presentations' %}"><i class="fa fa-arrow-left" style="font-size:24px; color:grey; padding-right:20px"></i></a>
+  <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'presentations-update' object.id %}">Update</a>
+  <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'presentations-delete' object.id %}">Delete</a>
+  </div>
+{% endblock content %}

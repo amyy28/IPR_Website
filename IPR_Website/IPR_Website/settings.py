@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'Skits.apps.SkitsConfig',
     'Presentations.apps.PresentationsConfig',
     'website.apps.WebsiteConfig',
+    'crispy_forms',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
@@ -121,3 +122,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+LOGIN_REDIRECT_URL = 'about-home'
+LOGIN_URL = 'login'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'

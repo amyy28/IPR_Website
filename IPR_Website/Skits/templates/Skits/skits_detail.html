@@ -1,0 +1,17 @@
+{% extends "website/header.html" %}
+{% block content %}
+  <div class="container">
+  <h3>{{ object.team_group_numbers }}</h3>
+  </div>
+  <div style="padding-left:930px">
+  <a href="{% url 'skits-list' %}"><i class="fa fa-arrow-left" style="font-size:24px; color:grey; padding-right:20px"></i></a>
+  <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'skits-update' object.id %}">Update</a>
+  <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'skits-delete' object.id %}">Delete</a>
+  </div>
+  <div>
+    <object style="height: 390px; width: 640px"><param name="movie" value="{{ object.video_url }}">
+      <param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always">
+      <embed src="{{ object.video_url }}"
+             type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+  </div>
+{% endblock content %}
