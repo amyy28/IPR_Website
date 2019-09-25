@@ -1,10 +1,11 @@
 from django.db import models
 from django.urls import reverse
+from Teams.models import Teams
 
 # Create your models here.
 
 class Presentations(models.Model):
-    team_group_numbers = models.CharField(max_length=100)
+    team_group_numbers = models.ForeignKey(Teams, on_delete=models.CASCADE)
     topic = models.CharField(max_length=100)
     file = models.FileField(blank=True)
 

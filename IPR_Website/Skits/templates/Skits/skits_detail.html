@@ -9,13 +9,36 @@
   <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'skits-delete' object.id %}">Delete</a>
   </div>
   <div>
-    <object style="height: 390px; width: 640px"><param name="movie" value="{{ object.video_url }}">
+    <div class="row" style="padding-top:50px;">
+  <div class="column">
+    <img src="{{ object.image.url }}" style="width:100%">
+  </div>
+  <div class="column">
+    <object style="height: 278px; width: 440px"><param name="movie" value="{{ object.video_url }}">
       <param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always">
       <embed src="{{ object.video_url }}"
              type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
-
-    <div>
-      <img src="{{ object.image.url }}" >
-    </div>
   </div>
+</div>
+
+  </div>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 {% endblock content %}

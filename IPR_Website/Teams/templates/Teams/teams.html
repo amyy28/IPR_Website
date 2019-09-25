@@ -1,0 +1,51 @@
+{% extends "website/header.html" %}
+{% block content %}
+    <h2 class="container">The list of teams!</h2>
+    <div style="padding-left:1000px">
+      <a href="{% url 'teams-create' %}" class="btn btn-secondary btn-sm mt-1 mb-1" style="background-color:green">Add new +</a>
+      </div>
+    <form action="" style="padding-top:20px">
+      <input type="text" placeholder="Search.." name="search" id="search" value="{{search_term}}">
+    </form>
+   <style>
+  input[type=text] {
+  width: 120px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 8px 10px 12px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+  width: 100%;
+}
+</style>
+<table class="table" style="padding-top:100px">
+    <thead>
+      <tr>
+        <th>Team Number</th>
+        <th>Member 1</th>
+        <th>Member 2</th>
+        <th>Member 3</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for team in teams %}
+      <tr>
+        <td>{{ team.team_number }}</td>
+        <td>{{ team.member_1 }}</td>
+        <td>{{ team.member_2 }}</td>
+        <td>{{ team.member_3 }}</td>
+        <td><a class="btn btn-secondary btn-sm mt-1 mb-1" style="background-color:green; color:white;" href="{% url 'teams-detail' team.id %}">Details</a></td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+{% endblock content %}

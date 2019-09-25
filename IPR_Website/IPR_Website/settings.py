@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'Skits.apps.SkitsConfig',
+    'Teams.apps.TeamsConfig',
     'Presentations.apps.PresentationsConfig',
     'website.apps.WebsiteConfig',
     'crispy_forms',

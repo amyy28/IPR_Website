@@ -38,8 +38,7 @@ input[type=text]:focus {
       <tr>
         <td>{{ skit.team_group_numbers }}</td>
         <td>{{ skit.topic }}</td>
-
-        <td><a class="article-title" href="{% url 'skits-detail' skit.id %}">Details</a></td>
+          <td><a class="btn btn-secondary btn-sm mt-1 mb-1" style="background-color:green; color:white;" href="{% url 'skits-detail' skit.id %}">Details</a></td>
       </tr>
     {% endfor %}
     </tbody>
