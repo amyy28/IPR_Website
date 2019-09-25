@@ -6,6 +6,7 @@ from django.urls import reverse
 class Presentations(models.Model):
     team_group_numbers = models.CharField(max_length=100)
     topic = models.CharField(max_length=100)
+    file = models.FileField(blank=True)
 
     def __str__(self):
         return self.topic

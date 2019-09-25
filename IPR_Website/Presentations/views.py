@@ -22,7 +22,7 @@ def presentations(request):
 
 class PresentationsCreateView(CreateView):
     model = Presentations
-    fields = ['team_group_numbers', 'topic']
+    fields = ['team_group_numbers', 'topic', 'file']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
@@ -34,7 +34,7 @@ class PresentationsDetailView(DetailView):
 
 class PresentationsUpdateView(UpdateView):
     model = Presentations
-    fields = ['team_group_numbers', 'topic']
+    fields = ['team_group_numbers', 'topic', 'file']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
