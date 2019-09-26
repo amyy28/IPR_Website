@@ -6,7 +6,7 @@
         <form method="POST" enctype="multipart/form-data">
             {% csrf_token %}
             <fieldset class="form-group">
-                <legend class="border-bottom mb-4">Add new entry</legend>
+                <legend class="border-bottom mb-4">Please add your team details before proceeding further, ignore if already added.</legend>
                 <div class="form-row">
                     <div class="form-group col-md-6 mb-0">
                         {{ form.team_number|as_crispy_field }}

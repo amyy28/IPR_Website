@@ -3,6 +3,7 @@ from .models import Skits
 from django.views.generic import CreateView, DetailView, UpdateView, DeleteView
 from django.db.models import Q
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 
 @login_required
@@ -22,7 +23,7 @@ def skits(request):
 
 
 
-class SkitsCreateView(CreateView):
+class SkitsCreateView(LoginRequiredMixin, CreateView):
     model = Skits
     fields = ['team_group_numbers', 'topic', 'video_url', 'image']
 
@@ -31,10 +32,10 @@ class SkitsCreateView(CreateView):
         return super().form_valid(form)
 
 
-class SkitsDetailView(DetailView):
+class SkitsDetailView(LoginRequiredMixin, DetailView):
     model = Skits
 
-class SkitsUpdateView(UpdateView):
+class SkitsUpdateView(LoginRequiredMixin, UpdateView):
     model = Skits
     fields = ['team_group_numbers', 'topic', 'video_url', 'image']
 
@@ -42,6 +43,6 @@ class SkitsUpdateView(UpdateView):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
-class SkitsDeleteView(DeleteView):
+class SkitsDeleteView(LoginRequiredMixin, DeleteView):
     model = Skits
     success_url = '/skits/'

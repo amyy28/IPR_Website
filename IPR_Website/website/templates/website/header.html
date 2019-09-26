@@ -27,13 +27,19 @@
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
               <li class="{{ about }}"><a class="nav-item nav-link" href="{% url 'about-home' %}">About</a></li>
+                {% if request.user.is_authenticated %}
               <li class="{{ skits }}"><a class="nav-item nav-link" href="{% url 'skits-list' %}">Skits</a></li>
               <li class="{{ presentations }}"><a class="nav-item nav-link" href="{% url 'presentations' %}">Presentations</a></li>
               <li class="{{ teams }}"><a class="nav-item nav-link" href="{% url 'teams-list' %}">Teams</a></li>
+                {% endif %}
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
+                {% if request.user.is_authenticated %}
               <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+                {% else %}
+                <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+                {% endif %}
             </div>
           </div>
         </div>

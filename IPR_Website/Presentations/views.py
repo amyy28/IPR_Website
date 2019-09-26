@@ -3,6 +3,8 @@ from .models import Presentations
 from django.views.generic import CreateView, DetailView, UpdateView, DeleteView
 from django.db.models import Q
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
+
 
 @login_required
 def presentations(request):
@@ -20,7 +22,7 @@ def presentations(request):
     return render(request, 'Presentations/presentations.html', context)
 
 
-class PresentationsCreateView(CreateView):
+class PresentationsCreateView(LoginRequiredMixin, CreateView):
     model = Presentations
     fields = ['team_group_numbers', 'topic', 'file']
 
@@ -29,10 +31,10 @@ class PresentationsCreateView(CreateView):
         return super().form_valid(form)
 
 
-class PresentationsDetailView(DetailView):
+class PresentationsDetailView(LoginRequiredMixin, DetailView):
     model = Presentations
 
-class PresentationsUpdateView(UpdateView):
+class PresentationsUpdateView(LoginRequiredMixin, UpdateView):
     model = Presentations
     fields = ['team_group_numbers', 'topic', 'file']
 
@@ -40,6 +42,6 @@ class PresentationsUpdateView(UpdateView):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
-class PresentationsDeleteView(DeleteView):
+class PresentationsDeleteView(LoginRequiredMixin, DeleteView):
     model = Presentations
     success_url = '/presentations/'

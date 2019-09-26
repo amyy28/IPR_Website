@@ -22,11 +22,11 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('about/', include('website.urls')),
+    path('', include('website.urls')),
     path('skits/', include('Skits.urls')),
     path('presentations/', include('Presentations.urls')),
     path('teams/', include('Teams.urls')),
-    path('', auth_views.LoginView.as_view(template_name='website/login.html'), name='login'),
+    path('login/', auth_views.LoginView.as_view(template_name='website/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='website/logout.html'), name='logout'),
 ]
 

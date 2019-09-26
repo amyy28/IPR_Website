@@ -3,6 +3,7 @@ from .models import Teams
 from django.views.generic import CreateView, DetailView, UpdateView, DeleteView
 from django.db.models import Q
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 
 @login_required
@@ -21,7 +22,7 @@ def teams(request):
 
 
 
-class TeamsCreateView(CreateView):
+class TeamsCreateView(LoginRequiredMixin, CreateView):
     model = Teams
     fields = ['team_number', 'member_1', 'member_2', 'member_3']
 
@@ -30,10 +31,10 @@ class TeamsCreateView(CreateView):
         return super().form_valid(form)
 
 
-class TeamsDetailView(DetailView):
+class TeamsDetailView(LoginRequiredMixin, DetailView):
     model = Teams
 
-class TeamsUpdateView(UpdateView):
+class TeamsUpdateView(LoginRequiredMixin, UpdateView):
     model = Teams
     fields = ['team_number', 'member_1', 'member_2', 'member_3']
 
@@ -41,6 +42,6 @@ class TeamsUpdateView(UpdateView):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
-class TeamsDeleteView(DeleteView):
+class TeamsDeleteView(LoginRequiredMixin, DeleteView):
     model = Teams
     success_url = '/teams/'
