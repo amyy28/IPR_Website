@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render
 
 def home(request):
     context = {
@@ -6,3 +6,9 @@ def home(request):
     }
     return render(request, 'website/about.html', context)
 
+
+def AboutUs(request):
+    context = {
+        "AboutUs": "active",
+    }
+    return render(request, 'website/AboutUs.html', context)

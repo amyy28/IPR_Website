@@ -6,18 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4d99577f-4818-4d35-8813-2b02e3359628" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/IPR_Website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/IPR_Website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/IPR_Website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/IPR_Website/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Presentations/templates/Presentations/presentations_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Presentations/templates/Presentations/presentations_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Presentations/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Presentations/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Teams/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Teams/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Teams/templates/Teams/teams_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Teams/templates/Teams/teams_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Teams/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Teams/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/website/templates/website/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/website/templates/website/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IPR_Website/website/templates/website/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/website/templates/website/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/website/templates/website/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/website/templates/website/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/website/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,17 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IPR_Website/Presentations/templates/Presentations/presentations_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,8 +30,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/IPR_Website/website/views.py" />
-        <option value="$PROJECT_DIR$/IPR_Website/website/urls.py" />
         <option value="$PROJECT_DIR$/IPR_Website/Presentations/admin.py" />
         <option value="$PROJECT_DIR$/IPR_Website/Presentations/templates/Presentations/presentations_form.html" />
         <option value="$PROJECT_DIR$/IPR_Website/Presentations/templates/Presentations/presentations_confirm_delete.html" />
@@ -68,16 +52,19 @@
         <option value="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_detail.html" />
         <option value="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_form.html" />
         <option value="$PROJECT_DIR$/IPR_Website/IPR_Website/urls.py" />
-        <option value="$PROJECT_DIR$/IPR_Website/IPR_Website/settings.py" />
         <option value="$PROJECT_DIR$/IPR_Website/Teams/templates/Teams/teams_form.html" />
         <option value="$PROJECT_DIR$/IPR_Website/website/templates/website/about.html" />
-        <option value="$PROJECT_DIR$/IPR_Website/website/templates/website/header.html" />
         <option value="$PROJECT_DIR$/IPR_Website/website/templates/website/logout.html" />
         <option value="$PROJECT_DIR$/IPR_Website/Teams/models.py" />
         <option value="$PROJECT_DIR$/IPR_Website/Teams/views.py" />
         <option value="$PROJECT_DIR$/IPR_Website/Skits/views.py" />
         <option value="$PROJECT_DIR$/IPR_Website/Presentations/views.py" />
         <option value="$PROJECT_DIR$/IPR_Website/Presentations/templates/Presentations/presentations_detail.html" />
+        <option value="$PROJECT_DIR$/IPR_Website/IPR_Website/settings.py" />
+        <option value="$PROJECT_DIR$/IPR_Website/website/urls.py" />
+        <option value="$PROJECT_DIR$/IPR_Website/website/templates/website/AboutUs.html" />
+        <option value="$PROJECT_DIR$/IPR_Website/website/templates/website/header.html" />
+        <option value="$PROJECT_DIR$/IPR_Website/website/views.py" />
       </list>
     </option>
   </component>
@@ -92,44 +79,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="IPR_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IPR_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IPR_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Presentations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IPR_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Presentations" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IPR_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="IPR_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="Presentations" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Presentations" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,11 +112,19 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -174,11 +133,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -192,13 +151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IPR_Website/website/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -237,13 +189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IPR_Website/website/static/website/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -315,43 +260,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IPR_Website/website/templates/website/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="77" lean-forward="true" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -401,13 +315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IPR_Website/IPR_Website/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="129" column="34" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IPR_Website/Teams/templates/Teams/teams.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -433,27 +340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="131" selection-start-line="8" selection-start-column="131" selection-end-line="8" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IPR_Website/website/templates/website/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IPR_Website/website/templates/website/logout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IPR_Website/website/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -514,6 +400,99 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/website/templates/website/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/About/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/About/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/IPR_Website/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/Skits/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/website/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/website/templates/website/logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/website/templates/website/AboutUs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="151" column="34" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/website/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/website/static/website/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="80" column="12" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPR_Website/website/templates/website/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="37" column="105" selection-start-line="37" selection-start-column="105" selection-end-line="37" selection-end-column="105" />
         </state>
       </provider>
     </entry>
