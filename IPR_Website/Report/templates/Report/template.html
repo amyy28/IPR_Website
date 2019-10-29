@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% for elem in teams %}
+{{ elem.member_1 }}
+<br>
+{{ elem.member_2 }}
+<br>
+{{ elem.member_3 }}
+<br>
+{{ elem.id }}
+{% endfor %}
+
+
+{{ object.team_group_numbers }}
+{{ object.id }}
+</body>
+</html>
