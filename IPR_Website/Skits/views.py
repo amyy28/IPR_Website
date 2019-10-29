@@ -25,7 +25,7 @@ def skits(request):
 
 class SkitsCreateView(LoginRequiredMixin, CreateView):
     model = Skits
-    fields = ['team_group_numbers', 'topic', 'video_url', 'image']
+    fields = ['team_group_numbers','team_group_numbers1', 'topic', 'video_url', 'image']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
@@ -37,7 +37,7 @@ class SkitsDetailView(LoginRequiredMixin, DetailView):
 
 class SkitsUpdateView(LoginRequiredMixin, UpdateView):
     model = Skits
-    fields = ['team_group_numbers', 'topic', 'video_url', 'image']
+    fields = ['team_group_numbers','team_group_numbers1', 'topic', 'video_url', 'image']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
