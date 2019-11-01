@@ -6,18 +6,49 @@
 </head>
 <body>
 
-{% for elem in teams %}
-{{ elem.member_1 }}
+
+{{ object.member_1_name }}
 <br>
-{{ elem.member_2 }}
+{{ object.member_2_name }}
 <br>
-{{ elem.member_3 }}
+{{ object.member_3_name }}
 <br>
-{{ elem.id }}
-{% endfor %}
+team id {{ object.id }}
 
 
-{{ object.team_group_numbers }}
-{{ object.id }}
+
+
+<br>
+{{ Presentation }}
+<br>
+{{ skits }}
+<br>
+Presentation
+{% for obj in Presentation %}
+    <br>
+     group number {{ obj.team_group_numbers }}
+    <br>
+     topic {{ obj.topic }}
+    <br>
+    id {{ obj.id }}
+    <br>
+     file url <href src = {{ file }}></href>
+    {% endfor %}
+
+    <br>
+    Skit
+
+    {% for obj in skits %}
+
+    HELLO
+     <br>
+        first group {{ obj.team_group_number_1 }}
+     <br>second group {{ obj.team_group_number_2 }}
+     <br>topic {{ obj.topic }}
+     <br>video url{{ obj.video_url }}
+      <br>skit image{{ obj.image }}
+        <br> id {{ obj.id}}
+
+    {% endfor %}
 </body>
 </html>
