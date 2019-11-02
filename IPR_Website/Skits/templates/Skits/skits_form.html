@@ -19,10 +19,17 @@
                     </div>
                     <div class="form-group col-md-6 mb-0">
                         {{ form.video_url|as_crispy_field }}
-                    </div><div class="form-group col-md-6 mb-0">
-                        {{ form.image|as_crispy_field }}
                     </div>
-                    <div class="form-group col-md-6 mb-0">
+                    <div class="form-group col-md-4 mb-0">
+                        {{ form.image_1|as_crispy_field }}
+                    </div>
+                    <div class="form-group col-md-4 mb-0">
+                        {{ form.image_2|as_crispy_field }}
+                    </div>
+                    <div class="form-group col-md-4 mb-0">
+                        {{ form.image_3|as_crispy_field }}
+                    </div>
+                    <div class="form-group col-md-12 mb-0">
                         {{ form.description|as_crispy_field }}
                     </div>
                 </div>

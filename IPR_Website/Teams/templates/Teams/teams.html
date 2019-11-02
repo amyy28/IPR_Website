@@ -40,9 +40,9 @@ input[type=text]:focus {
     {% for team in teams %}
       <tr>
         <td>{{ team.team_number }}</td>
-        <td>{{ team.member_1_name }}</td>
-        <td>{{ team.member_2_name }}</td>
-        <td>{{ team.member_3_name }}</td>
+        <td>{{ team.member_1 }}</td>
+        <td>{{ team.member_2 }}</td>
+        <td>{{ team.member_3 }}</td>
 <td><a class="btn btn-secondary btn-sm mt-1 mb-1" style="background-color:green; color:white;" href="{% url 'Report' team.id %}">Report</a></td>
           <td><a class="btn btn-secondary btn-sm mt-1 mb-1" style="background-color:green; color:white;" href="{% url 'teams-detail' team.id %}">Details</a></td>
       </tr>

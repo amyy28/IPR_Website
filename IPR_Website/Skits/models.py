@@ -10,8 +10,10 @@ class Skits(models.Model):
     team_group_number_2 = models.ForeignKey(Teams, on_delete=models.CASCADE,related_name = 'second')
     topic = models.CharField(max_length=100)
     video_url = models.CharField(max_length=100)
-    image = models.ImageField(default='default.jpg',upload_to='profile_pics')
-    description = models.CharField(max_length = 1000)
+    image_1 = models.ImageField(default='default.jpg',upload_to='profile_pics')
+    image_2 = models.ImageField(default='default.jpg',upload_to='profile_pics')
+    image_3 = models.ImageField(default='default.jpg',upload_to='profile_pics')
+    description = models.TextField(max_length = 1000)
     def __str__(self):
         return self.topic
 

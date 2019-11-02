@@ -24,7 +24,7 @@ def teams(request):
 
 class TeamsCreateView(LoginRequiredMixin, CreateView):
     model = Teams
-    fields = ['team_number', 'member_1_name','member_1_usn', 'member_2_name','member_2_usn','member_3_name','member_3_usn']
+    fields = ['team_number', 'member_1','member_1_USN', 'member_2','member_2_USN','member_3','member_3_USN']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
@@ -36,7 +36,7 @@ class TeamsDetailView(LoginRequiredMixin, DetailView):
 
 class TeamsUpdateView(LoginRequiredMixin, UpdateView):
     model = Teams
-    fields = ['team_number', 'member_1_name','member_1_usn', 'member_2_name','member_2_usn','member_3_name','member_3_usn']
+    fields = ['team_number', 'member_1','member_1_USN', 'member_2','member_2_USN','member_3','member_3_USN']
 
     def form_valid(self, form):
         form.instance.author = self.request.user

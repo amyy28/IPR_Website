@@ -4,13 +4,13 @@ from django.urls import reverse
 
 class Teams(models.Model):
     team_number = models.CharField(max_length=100)
-    member_1_name = models.CharField(max_length=100)
-    member_1_usn = models.CharField(max_length=100)
-    member_2_name = models.CharField(max_length=100, blank=True)
-    member_2_usn = models.CharField(max_length=100, blank=True)
+    member_1 = models.CharField(max_length=100)
+    member_1_USN = models.CharField(max_length=100)
+    member_2 = models.CharField(max_length=100, blank=True)
+    member_2_USN = models.CharField(max_length=100, blank=True)
 
-    member_3_name = models.CharField(max_length=100, blank=True)
-    member_3_usn = models.CharField(max_length=100, blank=True)
+    member_3 = models.CharField(max_length=100, blank=True)
+    member_3_USN = models.CharField(max_length=100, blank=True)
 
 
     def __str__(self):
