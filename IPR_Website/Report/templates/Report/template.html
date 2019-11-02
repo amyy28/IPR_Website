@@ -7,47 +7,46 @@
 <body>
 
 
-{{ object.member_1_name }}
+Member 1 {{ object.member_1_name }}
 <br>
-{{ object.member_2_name }}
+Member 2 {{ object.member_2_name }}
 <br>
-{{ object.member_3_name }}
+Member 3{{ object.member_3_name }}
 <br>
-team id {{ object.id }}
 
 
 
 
+
+
 <br>
-{{ Presentation }}
-<br>
-{{ skits }}
-<br>
-Presentation
+Presentation<br>
 {% for obj in Presentation %}
     <br>
      group number {{ obj.team_group_numbers }}
     <br>
      topic {{ obj.topic }}
-    <br>
-    id {{ obj.id }}
+
+
     <br>
      file url <href src = {{ file }}></href>
     {% endfor %}
 
     <br>
+<br><br>
+<br>
     Skit
-
+    <br>
     {% for obj in skits %}
 
-    HELLO
+
      <br>
         first group {{ obj.team_group_number_1 }}
      <br>second group {{ obj.team_group_number_2 }}
      <br>topic {{ obj.topic }}
      <br>video url{{ obj.video_url }}
       <br>skit image{{ obj.image }}
-        <br> id {{ obj.id}}
+
 
     {% endfor %}
 </body>

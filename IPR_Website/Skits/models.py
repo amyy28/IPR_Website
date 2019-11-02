@@ -11,7 +11,7 @@ class Skits(models.Model):
     topic = models.CharField(max_length=100)
     video_url = models.CharField(max_length=100)
     image = models.ImageField(default='default.jpg',upload_to='profile_pics')
-
+    description = models.CharField(max_length = 1000)
     def __str__(self):
         return self.topic
 
