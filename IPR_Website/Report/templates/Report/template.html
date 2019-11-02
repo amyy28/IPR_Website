@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+Member 1 {{ object.member_1_name }}
+<br>
+Member 2 {{ object.member_2_name }}
+<br>
+Member 3{{ object.member_3_name }}
+<br>
+
+
+
+
+
+
+<br>
+Presentation<br>
+{% for obj in Presentation %}
+    <br>
+     group number {{ obj.team_group_numbers }}
+    <br>
+     topic {{ obj.topic }}
+
+
+    <br>
+     file url <href src = {{ file }}></href>
+    {% endfor %}
+
+    <br>
+<br><br>
+<br>
+    Skit
+    <br>
+    {% for obj in skits %}
+
+
+     <br>
+        first group {{ obj.team_group_number_1 }}
+     <br>second group {{ obj.team_group_number_2 }}
+     <br>topic {{ obj.topic }}
+     <br>video url{{ obj.video_url }}
+      <br>skit image{{ obj.image }}
+
+
+    {% endfor %}
+</body>
+</html>

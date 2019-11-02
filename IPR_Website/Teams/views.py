@@ -4,7 +4,7 @@ from django.views.generic import CreateView, DetailView, UpdateView, DeleteView
 from django.db.models import Q
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
-
+from Report.views import PresentationsDetailView
 
 @login_required
 def teams(request):
@@ -24,7 +24,7 @@ def teams(request):
 
 class TeamsCreateView(LoginRequiredMixin, CreateView):
     model = Teams
-    fields = ['team_number', 'member_1', 'member_2', 'member_3']
+    fields = ['team_number', 'member_1_name','member_1_usn', 'member_2_name','member_2_usn','member_3_name','member_3_usn']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
@@ -36,7 +36,7 @@ class TeamsDetailView(LoginRequiredMixin, DetailView):
 
 class TeamsUpdateView(LoginRequiredMixin, UpdateView):
     model = Teams
-    fields = ['team_number', 'member_1', 'member_2', 'member_3']
+    fields = ['team_number', 'member_1_name','member_1_usn', 'member_2_name','member_2_usn','member_3_name','member_3_usn']
 
     def form_valid(self, form):
         form.instance.author = self.request.user

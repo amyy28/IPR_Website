@@ -1,7 +1,8 @@
 {% extends "website/header.html" %}
 {% block content %}
   <div class="container">
-  <h3>{{ object.team_group_numbers }}</h3>
+  <h3>{{ object.team_group_number_1 }}</h3>
+    <h4>{{ object.team_group_number_2 }}</h4>
   </div>
   <div style="padding-left:930px">
   <a href="{% url 'skits-list' %}"><i class="fa fa-arrow-left" style="font-size:24px; color:grey; padding-right:20px"></i></a>
