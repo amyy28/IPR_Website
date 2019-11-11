@@ -13,7 +13,6 @@ def skits(request):
     if 'search' in request.GET:
         search_term = request.GET['search']
         skits = skits.filter(
-            Q(team_group_numbers__icontains=search_term) |
             Q(topic__icontains=search_term)
         )
     context = {
