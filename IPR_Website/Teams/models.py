@@ -11,7 +11,7 @@ class Teams(models.Model):
 
     member_3 = models.CharField(max_length=100, blank=True)
     member_3_USN = models.CharField(max_length=100, blank=True)
-
+    group_photo = models.ImageField(default='default.jpg',upload_to='profile_pics')
 
     def __str__(self):
         return self.team_number

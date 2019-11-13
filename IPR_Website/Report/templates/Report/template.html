@@ -179,7 +179,7 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
   <div id="container" class="clear">
     <!-- Slider -->
     <section id="slider" class="clear">
-      <figure><img src="images/demo/630x300.gif" alt="">
+      <figure><img src="{{ object.group_photo.url }}" alt="">
         <figcaption>
           <table style="width:90%" >
   <tr>
@@ -187,45 +187,60 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
     <th>USN</th>
   </tr>
   <tr>
-    <td>{{ object.member_1_name }}</td>
-    <td>156</td>
+    <td>{{ object.member_1 }}</td>
+    <td>{{ object.member_1_USN }}</td>
   </tr>
     <tr>
-    <td>{{ object.member_2_name }}</td>
-    <td>125</td>
+    <td>{{ object.member_2 }}</td>
+    <td>{{ object.member_2_USN }}</td>
   </tr>
     <tr>
-    <td>{{ object.member_3_name }}</td>
-    <td>123</td>
+    <td>{{ object.member_3 }}</td>
+    <td>{{ object.member_3_USN }}</td>
   </tr>
 </table>
         </figcaption>
       </figure>
     </section>
     <!-- main content -->
+
     <div id="intro">
       <section class="clear">
         <!-- article 1 -->
         <article class="two_quarter">
-          <h2>SKIT TOPIC : kuch bhi</h2>
-		    <a href="videos/lol.mp4">For Skit video click here</a><br>
-			<label>brief Description on SKIT</label><p>You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more HTML5 templates visit </p>
+            {% for obj in skits %}
+          <h2>SKIT TOPIC : {{ obj.topic }} </h2>
+		    <a href="{{ obj.video_url }}"> Skit url : {{ obj.video_url }}</a><br>
+			<label>brief Description on SKIT</label><p>{{ obj.description }} </p>
+             <figure>
+                 <article class="two_quarter lastbox">
+            <ul class="clear">
+              <li><a href="#"><img src="{{ obj.image_1.url }}" width="130" height="130" alt=""></a></li>
+              <li><a href="#"><img src="{{ obj.image_2.url }}" width="130" height="130" alt=""></a></li>
+              <li class="last"><a href="#"><img src="{{ obj.image_3.url }}" width="130" height="130" alt=""></a></li>
+            </ul>
+
+                 </article>
+          </figure>
+            {% endfor %}
 			<br>
-			<h2>PRESENTATION TOPIC : something</h2>
-          <label>brief Description on presentation</label><p>This is a W3C compliant free website template from </p>
+             {% for obj in Presentation %}
+			<h2>PRESENTATION TOPIC : {{ obj.topic }}</h2>
+          <label>brief Description on presentation</label><p>{{ obj.description }} </p>
 
         </article>
         <!-- article 2 -->
         <article class="two_quarter lastbox">
           <figure>
             <ul class="clear">
-              <li><a href="#"><img src="images/demo/130x130.gif" width="130" height="130" alt=""></a></li>
-              <li><a href="#"><img src="images/demo/130x130.gif" width="130" height="130" alt=""></a></li>
-              <li class="last"><a href="#"><img src="images/demo/130x130.gif" width="130" height="130" alt=""></a></li>
+              <li><a href="#"><img src="{{ obj.image_1.url }}" width="130" height="130" alt=""></a></li>
+              <li><a href="#"><img src="{{ obj.image_2.url }}" width="130" height="130" alt=""></a></li>
+              <li class="last"><a href="#"><img src="{{ obj.image_3.url }}" width="130" height="130" alt=""></a></li>
             </ul>
-            <figcaption><a href="images/demo">View Our Image Gallery Here &raquo;</a></figcaption>
+
           </figure>
         </article>
+          {% endfor %}
       </section>
     </div>
   </div>
@@ -286,32 +301,32 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 <!--<br>-->
 <!--Presentation<br>-->
 <!--{% for obj in Presentation %}-->
-<!--    <br>-->
-<!--     group number {{ obj.team_group_numbers }}-->
-<!--    <br>-->
-<!--     topic {{ obj.topic }}-->
+    <!--<br>-->
+     <!--group number {{ obj.team_group_numbers }}-->
+    <!--<br>-->
+     <!--topic {{ obj.topic }}-->
 
 
-<!--    <br>-->
-<!--     file url <href src = {{ file }}></href>-->
-<!--    {% endfor %}-->
+    <!--<br>-->
+     <!--file url <href src = {{ file }}></href>-->
+    <!--{% endfor %}-->
 
-<!--    <br>-->
+    <!--<br>-->
 <!--<br><br>-->
 <!--<br>-->
-<!--    Skit-->
-<!--    <br>-->
-<!--    {% for obj in skits %}-->
+    <!--Skit-->
+    <!--<br>-->
+    <!--{% for obj in skits %}-->
 
 
-<!--     <br>-->
-<!--        first group {{ obj.team_group_number_1 }}-->
-<!--     <br>second group {{ obj.team_group_number_2 }}-->
-<!--     <br>topic {{ obj.topic }}-->
-<!--     <br>video url{{ obj.video_url }}-->
-<!--      <br>skit image{{ obj.image }}-->
+     <!--<br>-->
+        <!--first group {{ obj.team_group_number_1 }}-->
+     <!--<br>second group {{ obj.team_group_number_2 }}-->
+     <!--<br>topic {{ obj.topic }}-->
+     <!--<br>video url{{ obj.video_url }}-->
+      <!--<br>skit image{{ obj.image }}-->
 
 
-<!--    {% endfor %}-->
+    <!--{% endfor %}-->
 <!--</body>-->
 <!--</html>-->
