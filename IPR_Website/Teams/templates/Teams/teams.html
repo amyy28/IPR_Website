@@ -43,8 +43,8 @@ input[type=text]:focus {
         <td>{{ team.member_1 }}</td>
         <td>{{ team.member_2 }}</td>
         <td>{{ team.member_3 }}</td>
-<td><a class="btn btn-secondary btn-sm mt-1 mb-1" style="background-color:green; color:white;" href="{% url 'Report' team.id %}">Report</a></td>
-          <td><a class="btn btn-secondary btn-sm mt-1 mb-1" style="background-color:green; color:white;" href="{% url 'teams-detail' team.id %}">Details</a></td>
+<td><a class="btn btn-secondary btn-sm mt-1 mb-1" style="background-color:green; color:white;" href="{% url 'Report' team.id %}">Generate</a></td>
+          <td><a class="btn btn-secondary btn-sm mt-1 mb-1" style="background-color:purple; color:white;" href="{% url 'teams-detail' team.id %}">Update?</a></td>
       </tr>
     {% endfor %}
     </tbody>

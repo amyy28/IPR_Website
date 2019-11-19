@@ -2,19 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d99577f-4818-4d35-8813-2b02e3359628" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/IPR_Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IPR_Website.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Presentations/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Presentations/migrations/0002_auto_20191102_1128.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Presentations/migrations/0003_presentations_description.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Presentations/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Presentations/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Presentations/templates/Presentations/presentations_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Presentations/templates/Presentations/presentations_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Presentations/templates/Presentations/presentations_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Presentations/templates/Presentations/presentations_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Presentations/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Presentations/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IPR_Website/Report/templates/Report/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Report/templates/Report/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/migrations/0002_auto_20191102_1042.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Teams/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Teams/migrations/0002_auto_20191102_1030.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPR_Website/Teams/migrations/0003_auto_20191102_1035.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Skits/templates/Skits/skits_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Teams/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Teams/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Teams/templates/Teams/teams.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Teams/templates/Teams/teams.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Teams/templates/Teams/teams_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Teams/templates/Teams/teams_confirm_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Teams/templates/Teams/teams_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Teams/templates/Teams/teams_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/Teams/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/Teams/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/44417078.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/44417078_O6t5jLS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/44417078_rhgEw1U.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/BMS-Vs-BMS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/BMS-Vs-BMS_iKNNqyA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/HACKATHON_-_Sheet6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/HACKATHON_-_Sheet6_YGvR2y1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/IEEE_RIT_website_Data.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/IEEE_RIT_website_Data_2cNFA7K.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/IMG_20170324_115640_HDR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/IMG_20191027_132447_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/IMG_20191027_133700.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/IMG_20191027_134917.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/Talks_about_ms_gre_anD_much_more.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/What-is-domain-name.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/What-is-domain-name_agsikWS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/amazon-logo-500500._V327001990_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/amazon-logo-500500._V327001990__0HNbDfZ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/amazon-logo-500500._V327001990__CliqXNY.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/amazon-logo-500500._V327001990__GdhtTde.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/amazon-logo-500500._V327001990__Q2gXKxD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/amazon-logo-500500._V327001990__nVsRziY.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/amazon-logo-500500._V327001990__v6vK0I2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/appno.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/cat-pet-animal-domestic-104827.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/cat-pet-animal-domestic-104827_gmdm7Qo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/cat-pet-animal-domestic-104827_iWpNYiw.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/code-wallpaper-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/code-wallpaper-8_4jBmHcu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/code-wallpaper-8_UJMtYP1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/download.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/flipkart630_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/44417078.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/44417078_2WZwDCT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/44417078_GOYDm7J.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/44417078_KeSEzSv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/44417078_nbTjhjc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/44417078_qt4rGsT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/Annotation_2019-09-22_101929.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/BMS-Vs-BMS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/BMS-Vs-BMS_HIRtHoo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/IMG_20190213_214710.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/IMG_20191027_132447.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/IMG_20191027_132447_gfWC7HI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/IMG_20191027_133700.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/IMG_20191027_133700_5cZ88EX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/IMG_20191027_134923.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/IMG_20191027_134923_5h2hzbF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/SPACE.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/SPACE_HD6S8JU.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/SPACE_HpM82qL.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/SPACE_nhy6M0j.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/SPACE_xuIQm2c.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/SPACE_yxRuFw3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/What-is-domain-name.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/cat-pet-animal-domestic-104827.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/cat-pet-animal-domestic-104827_grZdfQN.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/download.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/flipkart630_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/flipkart630_0_qqP0cXa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/ipr.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/yo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/yo_b0z4Ppo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/profile_pics/yo_jadWXYb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/save_environment.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/media/save_environment_1.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPR_Website/website/templates/website/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/IPR_Website/website/templates/website/AboutUs.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

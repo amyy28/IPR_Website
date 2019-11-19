@@ -4,6 +4,7 @@ from django.views.generic import CreateView, DetailView, UpdateView, DeleteView
 from django.db.models import Q
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.decorators import user_passes_test
 from Report.views import PresentationsDetailView
 
 @login_required

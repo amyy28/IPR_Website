@@ -1,5 +1,19 @@
 {% extends "website/header.html" %}
 {% block content %}
+
+<style>
+
+
+
+div.polaroid {
+  width: 83.8%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+</style>
+
   <div class="container">
   <h3>{{ object.team_number }}</h3>
   </div>
@@ -8,4 +22,10 @@
   <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'teams-update' object.id %}">Update</a>
   <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'teams-delete' object.id %}">Delete</a>
   </div>
+
+<div style="padding-top:100px; padding-left:180px;">
+<div class="polaroid">
+  <a href="#"><img src="{{ object.group_photo.url }}" height="500" width="780"></a>
+  </div>
+</div>
 {% endblock content %}

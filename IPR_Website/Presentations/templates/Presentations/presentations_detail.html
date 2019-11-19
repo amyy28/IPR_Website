@@ -10,13 +10,31 @@
   </div>
 <div class="row" style="padding-top:50px;">
   <div class="column">
-    <img src="{{ object.image_1.url }}" style="width:100%">
+    <img src="{{ object.image_1.url }}" height="250" width="360">
   </div>
   <div class="column">
-    <img src="{{ object.image_2.url }}" style="width:100%">
+    <img src="{{ object.image_2.url }}" height="250" width="360">
   </div>
   <div class="column">
-    <img src="{{ object.image_3.url }}" style="width:100%">
+    <img src="{{ object.image_3.url }}" height="250" width="360">
   </div>
 </div>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 {% endblock content %}

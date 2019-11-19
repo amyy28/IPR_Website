@@ -6,6 +6,7 @@
   <title>SKIT REPORT</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="layout.css" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <!--[if lt IE 9]><script src="html5shiv.js"></script><![endif]-->
 
   <style>
@@ -165,11 +166,12 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 
 <body>
-
+<div id="HTMLtoPDF">
 <div class="wrapper row1">
   <header id="header" class="clear">
     <div id="hgroup">
-      <h1><a href="#">TEAM REPORT</a></h1>
+      <h1>TEAM REPORT</h1>
+      <!--<a href="#" onclick="HTMLtoPDF()">Download PDF</a>-->
     </div>
 
   </header>
@@ -179,9 +181,9 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
   <div id="container" class="clear">
     <!-- Slider -->
     <section id="slider" class="clear">
-      <figure><img src="{{ object.group_photo.url }}" alt="">
-        <figcaption>
-          <table style="width:90%" >
+      <figure><img src="{{ object.group_photo.url }}" width="400" height="400" alt="">
+        <figcaption style="height:300px;">
+          <table style="width:100%" >
   <tr>
    <th>MEMBERS</th>
     <th>USN</th>
@@ -207,11 +209,13 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
     <div id="intro">
       <section class="clear">
         <!-- article 1 -->
+        <div class="row">
+          <div class="col-sm-6">
         <article class="two_quarter">
             {% for obj in skits %}
-          <h2>SKIT TOPIC : {{ obj.topic }} </h2>
-		    <a href="{{ obj.video_url }}"> Skit url : {{ obj.video_url }}</a><br>
-			<label>brief Description on SKIT</label><p>{{ obj.description }} </p>
+          <h2 style="color:black;"><strong>SKIT TOPIC : {{ obj.topic }}</strong></h2>
+			<label style="font-size:100%;"><strong>Brief Description on Skit</strong></label><p style="font-size:160%;">{{ obj.description }}
+          <a href="{{ obj.video_url }}"> Skit url : {{ obj.video_url }}</a></p><br>
              <figure>
                  <article class="two_quarter lastbox">
             <ul class="clear">
@@ -223,27 +227,35 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
                  </article>
           </figure>
             {% endfor %}
-			<br>
-             {% for obj in Presentation %}
-			<h2>PRESENTATION TOPIC : {{ obj.topic }}</h2>
-          <label>brief Description on presentation</label><p>{{ obj.description }} </p>
-
-        </article>
+		</article>
+            </div>
+          <br>
         <!-- article 2 -->
+          <div class="col-sm-6">
+          <article class="two_quarter">
+             {% for obj in Presentation %}
+            <h2 style="color:black;"><strong>PRESENTATION TOPIC : {{ obj.topic }}</strong></h2>
+            <label><strong>Brief Description on Presentation</strong></label><p style="font-size:160%;">{{ obj.description }}
+          <a href="/media/{{ obj.file }}">Download ppt here!</a></p>
+
+        <figure>
+
         <article class="two_quarter lastbox">
-          <figure>
             <ul class="clear">
               <li><a href="#"><img src="{{ obj.image_1.url }}" width="130" height="130" alt=""></a></li>
               <li><a href="#"><img src="{{ obj.image_2.url }}" width="130" height="130" alt=""></a></li>
               <li class="last"><a href="#"><img src="{{ obj.image_3.url }}" width="130" height="130" alt=""></a></li>
             </ul>
-
-          </figure>
         </article>
+          </figure>
           {% endfor %}
+          </article>
+          </div>
+          </div>
       </section>
     </div>
   </div>
 </div>
+  </div>
 </body>
 </html>

@@ -24,7 +24,7 @@ def presentations(request):
 
 class PresentationsCreateView(LoginRequiredMixin, CreateView):
     model = Presentations
-    fields = ['team_group_numbers', 'topic', 'image_1', 'image_2', 'image_3', 'description']
+    fields = ['team_group_numbers', 'topic', 'image_1', 'image_2', 'image_3', 'description', 'file']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
@@ -36,7 +36,7 @@ class PresentationsDetailView(LoginRequiredMixin, DetailView):
 
 class PresentationsUpdateView(LoginRequiredMixin, UpdateView):
     model = Presentations
-    fields = ['team_group_numbers', 'topic', 'image_1', 'image_2', 'image_3', 'description']
+    fields = ['team_group_numbers', 'topic', 'image_1', 'image_2', 'image_3', 'description', 'file']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
