@@ -20,7 +20,9 @@ div.polaroid {
   <div style="padding-left:930px">
   <a href="{% url 'teams-list' %}"><i class="fa fa-arrow-left" style="font-size:24px; color:grey; padding-right:20px"></i></a>
   <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'teams-update' object.id %}">Update</a>
+    {% if request.user.is_superuser %}
   <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'teams-delete' object.id %}">Delete</a>
+    {% endif %}
   </div>
 
 <div style="padding-top:100px; padding-left:180px;">
