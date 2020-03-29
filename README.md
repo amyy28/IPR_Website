@@ -1,4 +1,4 @@
-# IPR_Website :computer: 
+# IPR Website :computer: 
 
 Made on Django framework and JavaScript, Bootstrap for the course Intellectual Property Rights, to enable students to upload  
 their photos ,presentations and skit video content conducted as a part of classroom activity sessions. Each team also has a
