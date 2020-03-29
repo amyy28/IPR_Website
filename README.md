@@ -6,3 +6,8 @@ unique auto-generated report which provides a glimpse of the activities conducte
 
 ## Instructions to run
 ```git clone https://github.com/amyy28/IPR_Website.git```
+
+## Now cd into the cloned repository
+```cd IPR_Website```
+```pip3 install -r requirements.txt```
+This will install all the required dependencies
