@@ -13,20 +13,30 @@ git clone https://github.com/amyy28/IPR_Website.git
 Now again execute ```cd IPR_Website```
 
 ### Install all the requirements at once
-```pip3 install -r requirements.txt```
+```
+pip3 install -r requirements.txt
+```
 
 ### Create a superuser for login
 #### Create your username and password of your choice
-```python3 manage.py createsuperuser```
+```
+python3 manage.py createsuperuser
+```
 
 ### Now you require to migrate all the database table schemas to the default sql database 
-```python3 manage.py makemigrations```
+```
+python3 manage.py makemigrations
+```
 
 ### Now migrate it
-```python3 manage.py migrate```
+```
+python3 manage.py migrate
+```
 
 ### Now run the server
-```python3 manage.py runserver```
+```
+python3 manage.py runserver
+```
 
 ## Hit the below URL
 ```http://127.0.0.1:8000/```
