@@ -21,7 +21,7 @@ pip3 install -r requirements.txt
 ```
 
 ### Create a superuser for login
-#### Create your username and password of your choice
+Create your username and password of your choice
 ```
 python3 manage.py createsuperuser
 ```
@@ -45,3 +45,8 @@ python3 manage.py runserver
 ```http://127.0.0.1:8000/```
 
 Now go to login and enter the created username and password. Once logged in, create the team by filling in the required details and then skit and presentations data can easily be loaded using the forms in the UI. 
+
+### 💁🏻 Contributing
+Any contributions and pull requests are welcomed! 
+
+### Made with :heart:
