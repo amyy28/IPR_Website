@@ -8,7 +8,7 @@ unique auto-generated report which provides a glimpse of the activities conducte
 ```git clone https://github.com/amyy28/IPR_Website.git```
 
 ## Now 'cd' into the cloned repository
-```cd IPR_Website```
+Now again execute ```cd IPR_Website```
 
 ## Install all the requirements at once
 ```pip3 install -r requirements.txt```
@@ -29,4 +29,4 @@ unique auto-generated report which provides a glimpse of the activities conducte
 ## Hit the below URL
 ```http://127.0.0.1:8000/```
 
-### Now go to login and enter the created username and password
+Now go to login and enter the created username and password. Once logged in, create the team and then skit and presentations data can easily be loaded using the forms in the UI. 
