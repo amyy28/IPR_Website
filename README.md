@@ -9,8 +9,11 @@ unique auto-generated report which provides a glimpse of the activities conducte
 git clone https://github.com/amyy28/IPR_Website.git
 ```
 
-### Now 'cd' into the cloned repository
-Now again execute ```cd IPR_Website```
+### In the cloned repository
+Execute 
+```
+cd IPR_Website
+```
 
 ### Install all the requirements at once
 ```
@@ -28,7 +31,7 @@ python3 manage.py createsuperuser
 python3 manage.py makemigrations
 ```
 
-### Now migrate it
+### Migrate it
 ```
 python3 manage.py migrate
 ```
